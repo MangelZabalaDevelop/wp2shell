@@ -13,6 +13,8 @@ WordPress clasifica el conjunto como una incidencia crítica; el proveedor asign
 
 La demostración se realizó en un laboratorio local controlado con una versión afectada de WordPress. El checker identifica la versión expuesta y muestra el resultado de la comparación con los rangos vulnerables. La PoC se desarrolló con fines de investigación y permite entender, a alto nivel, cómo una persona atacante podría automatizar ataques contra instalaciones vulnerables y llegar a obtener acceso no autorizado.
 
+🎥 **Video de la demostración:** https://youtu.be/rLqMYMdhD50
+
 ```mermaid
 flowchart LR
     A[Instalación vulnerable] --> B[Riesgo de automatización]
@@ -20,8 +22,6 @@ flowchart LR
     C --> D[Acceso no autorizado]
     D --> E[Impacto sobre el sitio]
 ```
-
-🎥 **Video de la demostración:** https://youtu.be/rLqMYMdhD50
 
 ## Uso
 
