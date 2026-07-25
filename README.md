@@ -7,7 +7,7 @@ WP2Shell Checker es un script de lectura que identifica la versión de WordPress
 - **CVE-2026-60137:** una inyección SQL en `WP_Query` que puede aparecer cuando un plugin o tema pasa entrada no confiable al parámetro `author__not_in`.
 - **CVE-2026-63030:** una confusión de rutas en el endpoint batch de la API REST que, combinada con la anterior, puede llevar a inyección SQL y ejecución remota de código.
 
-WordPress clasifica el conjunto como una incidencia crítica; el proveedor asigna a CVE-2026-63030 una puntuación CVSS 9.8. Actualiza cuanto antes: 6.8.6 corrige la primera vulnerabilidad; 6.9.5 y 7.0.2 corrigen ambas.
+WordPress clasifica el conjunto como una incidencia crítica, el proveedor asigna a CVE-2026-63030 una puntuación CVSS 9.8.
 
 ## Prueba de concepto
 
@@ -46,7 +46,7 @@ python cve-checker.py https://tu-sitio.example
 WordPress recomienda actualizar los sitios afectados de inmediato. El equipo de WordPress.org habilitó actualizaciones forzadas para las versiones afectadas cuando el sitio admite actualizaciones automáticas.
 
 1. Actualiza desde **Escritorio → Actualizaciones → Actualizar ahora**, o mediante el mecanismo de actualización de tu proveedor.
-2. Lleva WordPress a **6.8.6** si utilizas la rama 6.8; a **6.9.5** si utilizas la rama 6.9; o a **7.0.2** o posterior si utilizas la rama 7.0.
+2. Lleva WordPress a **6.8.6** si utilizas la rama 6.8 a **6.9.5** si utilizas la rama 6.9 o a **7.0.2** o posterior si utilizas la rama 7.0.
 3. Tras actualizar, confirma la versión instalada y conserva una copia de seguridad reciente antes de aplicar cambios adicionales.
 
 Fuentes: [WordPress](https://wordpress.org/news/2026/07/wordpress-7-0-2-release/) · [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-63030)
